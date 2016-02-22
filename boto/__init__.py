@@ -47,8 +47,8 @@ datetime.datetime.strptime('', '')
 UserAgent = 'Boto/%s Python/%s %s/%s' % (
     __version__,
     platform.python_version(),
-    platform.system(),
-    platform.release()
+    '',
+    ''
 )
 config = Config()
 
